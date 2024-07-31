@@ -1,0 +1,437 @@
+CRITICAL - 2024-07-30 09:49:07 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 09:49:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/app/Config/Events.php:35) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 09:49:22 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 09:49:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/app/Config/Events.php:35) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 09:56:12 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 09:56:12 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/app/Config/Events.php:35) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:21:20 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:21:20 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/app/Config/Events.php:35) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:21:47 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:21:47 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:22:48 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:22:48 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:23:07 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:23:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:24:15 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:24:15 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:27:46 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:27:46 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:27:52 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:27:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:29:51 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:29:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:30:01 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:30:01 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:30:03 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:30:03 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:30:05 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:30:05 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:30:06 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:30:07 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:30:13 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:30:13 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:31:15 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:31:15 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:31:51 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:31:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:34:22 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:34:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:36:06 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:36:06 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:36:08 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:36:08 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:36:15 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:36:15 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-07-30 10:36:42 --> Constant FILTER_SANITIZE_STRING is deprecated
+#0 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(1359): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Constant FILTER...', '/Users/abc/Site...', 1359)
+#1 /Users/abc/Sites/ci4-dashboard/system/Router/RouteCollection.php(608): CodeIgniter\Router\RouteCollection->create('*', 'BaseController(...', Object(Closure), NULL)
+#2 /Users/abc/Sites/ci4-dashboard/system/Config/Routes.php(25): CodeIgniter\Router\RouteCollection->add('BaseController(...', Object(Closure))
+#3 /Users/abc/Sites/ci4-dashboard/app/Config/Routes.php(12): require('/Users/abc/Site...')
+#4 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(802): require('/Users/abc/Site...')
+#5 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 /Users/abc/Sites/ci4-dashboard/system/CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/abc/Sites/ci4-dashboard/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-30 10:36:42 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /Users/abc/Sites/ci4-dashboard/system/HTTP/RequestTrait.php:337) in /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Users/abc/Site...', 137)
+#1 /Users/abc/Sites/ci4-dashboard/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
